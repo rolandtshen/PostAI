@@ -1,3 +1,39 @@
-.hero {
-  background-color: #000;
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  position: relative;
+}
+
+/* Create two equal columns that sits next to each other */
+.columnHero {
+  position: absolute;
+  height: 80vh;
+  margin-left: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 620px;
+  font-size: 100px;
 }
