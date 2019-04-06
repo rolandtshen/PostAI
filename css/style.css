@@ -3,37 +3,33 @@ html, body {
   width: 100%;
 }
 
-.row {
+.bg {
   position: relative;
+  text-align: center;
 }
 
-/* Create two equal columns that sits next to each other */
-.columnHero {
-  position: absolute;
-  height: 80vh;
-  margin-left: 64px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+.bg img {
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    position: relative;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+#right {
+  margin: auto;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.title {
+.explore {
   position: absolute;
   text-align: center;
-  top: 200px;
-  left: 620px;
-  font-size: 100px;
+  bottom: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  border-color: #000;
+  border-width: 2px;
+  border-style: solid;
+  color: #000;
 }
