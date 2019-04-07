@@ -21,7 +21,6 @@ html, body {
 
 .explore {
   position: absolute;
-  text-align: center;
   bottom: 100px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -32,4 +31,11 @@ html, body {
   border-width: 2px;
   border-style: solid;
   color: #000;
+}
+
+#past {
+}
+
+#future {
+  margin-left: 300px;
 }
