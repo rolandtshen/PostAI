@@ -25,12 +25,11 @@ h1 {
 }
 
 h2 {
+  position: relative;
   margin-left: 14%;
   color: white;
   font-size: 50px;
-  font-weight: 700;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  font-weight: 500;
 }
 
 ul {
@@ -45,6 +44,7 @@ li {
 }
 
 li a {
+  position: relative;
   color: #FFF;
   text-decoration: none;
 }
