@@ -36,6 +36,12 @@
   font-size: 60px;
 }
 
+#past {
+  color: #FFF;
+  font-size: 60px;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
 h2 {
   font-weight: 700;
   font-size: 45px;
