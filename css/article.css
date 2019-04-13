@@ -5,6 +5,7 @@
   padding-bottom: 10%;
   margin-bottom: 50px;
   margin-top: 50px;
+  color: #FFF;
 }
 
 .container {
@@ -14,32 +15,30 @@
 
 #economy {
   background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-  color: #FFF;
-  font-size: 60px;
 }
 
 #planet {
-  color: #FFF;
-  font-size: 60px;
   background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 
 #privacy {
-  color: #FFF;
-  font-size: 60px;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 #about {
-  background-color: #000;
-  color: #FFF;
-  font-size: 60px;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
 }
 
 #past {
-  color: #FFF;
-  font-size: 60px;
   background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+#present {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+h1 {
+  font-size: 60px;
 }
 
 h2 {
