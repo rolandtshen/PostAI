@@ -123,8 +123,17 @@
     opacity: 1;
 }
 
-.tooltip img{
+.tooltip img {
  max-width:500px;
  max-height:400px; /* change as your wish */
+}
 
+.tooltip-text {
+  text-decoration: underline;
+  color: #0074D9;
+  display: inline-block;
+}
+
+.tooltip-text:hover {
+  cursor: pointer;
 }
