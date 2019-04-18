@@ -37,15 +37,19 @@
   background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
 }
 
-h1 {
+.banner h1 {
   font-size: 60px;
 }
 
-h2 {
+.body h2 {
   font-weight: 700;
   font-size: 45px;
 }
 
-p {
+.body p {
   font-size: 20px;
+}
+
+.tooltip.show {
+    opacity: 1;
 }
