@@ -110,12 +110,12 @@
   font-size: 60px;
 }
 
-.body h2 {
+.bodyText h2 {
   font-weight: 700;
   font-size: 45px;
 }
 
-.body p {
+.bodyText p {
   font-size: 20px;
 }
 
@@ -129,10 +129,12 @@
 }
 
 .tooltip-text {
+  display: inline;
   text-decoration: underline;
   color: #0074D9;
-  display: inline-block;
+  font-size: 20px;
 }
+
 
 .tooltip-text:hover {
   cursor: pointer;
