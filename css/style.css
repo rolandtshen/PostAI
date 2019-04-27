@@ -96,7 +96,7 @@
 }
 
 #about {
-  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
 }
 
 #past {
@@ -109,6 +109,10 @@
 
 #conclusion {
   background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+#future {
+  background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
 }
 
 .banner h1 {
